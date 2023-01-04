@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+}
+
+/* Variables */
+
+:root {
+    --color-01:#0065FC;
+    --color-02:#000000;
+    
+}
+
+/* Titles */
+
+/* Subtitles */
+.subtitles {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-02);
+}
+/* Bold words */
+
+/* Buttons */
+
+/* Borders */
+
+.border1:hover{
+    border-top: solid 2px var(--color-01);
+    
+}
+/* Logos */
+
+.booki {
+    height: 19px;
+    position: absolute;
+    top: 46px;
+    left: 55px;  
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* Nav */
+
+ul {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    right: 44px;
+   
+}
+.nav-item {
+    list-style-type: none;
+    padding: 46px 32px;
+
+}
+.nav-item:hover{
+    color: var(--color-01);
+    cursor: default;
+}
+/* Cards */
+
+/* Subcards */
+
+/* Footer */
+
+
+
+
