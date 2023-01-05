@@ -1,5 +1,10 @@
 *{
     margin: 0;
+    font-family: Raleway;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Variables */
@@ -7,22 +12,34 @@
 :root {
     --color-01:#0065FC;
     --color-02:#000000;
+    --color-03:#F2F2F2;
+    --color-04:#FFFFFF;
     
 }
 
 /* Titles */
-
+.title1{
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--color-02);
+    margin-bottom: 8px;
+}
 /* Subtitles */
 .subtitles {
-    font-family: Raleway;
     font-weight: 400;
     font-size: 16px;
     color: var(--color-02);
 }
 /* Bold words */
-
+.bold-words1 {
+    font-size: 18px;
+    font-weight: 700;
+}
 /* Buttons */
-
+.button-formular {
+    padding: 16px 18px;
+    font-size: 18px;
+}
 /* Borders */
 
 .border1:hover{
@@ -62,6 +79,59 @@ ul {
     color: var(--color-01);
     cursor: default;
 }
+/* Main */
+.container {
+    padding: 0 50px;
+}
+
+.presentation{
+    padding: 15px 5px;
+}
+
+/* Formular */
+
+.formular{
+    display: flex;
+    flex-direction: row;
+    padding: 36px 5px;
+    
+}
+.local {
+     
+    background-color: var(--color-03);
+    border-radius: 15px 0 0 15px;
+    color: var(--color-02);
+    margin-top: 36px;
+}
+
+input {
+    border: 1px solid var(--color-03);
+    padding: 17px 17px;
+    margin-top: -16px;
+    color: var(--color-02);
+    width: 215px;
+}
+
+input::placeholder {
+    color: var(--color-02);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.search {
+    background-color: var(--color-01);
+    border-radius: 0 15px 15px 0;
+    color: var(--color-04);
+}
+
+.search-mobile {
+    display: none;
+}
+
+.search-desktop {
+    /*display: none;*/
+}
+
 /* Cards */
 
 /* Subcards */
