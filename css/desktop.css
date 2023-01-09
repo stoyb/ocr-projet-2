@@ -1,0 +1,144 @@
+/* Header */
+header {
+    padding-bottom: 16px;
+    padding: 0 72px;
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.booki {
+    height: 19px;
+    padding-top: 46px;
+}
+/* Nav */
+
+ul {
+    display: flex;
+    align-items: baseline;
+}
+.nav-item {
+    list-style-type: none;
+    padding: 46px 32px;
+
+}
+.nav-item:hover{
+    color: var(--color-01);
+    cursor: default;
+}
+/* Main */
+.container {
+    padding: 0 72px;
+}
+
+.presentation{
+    padding: 0 5px;
+}
+
+/* Formular */
+
+.formular{
+    display: flex;
+    flex-direction: row;
+    padding: 36px 5px;
+    
+}
+.local {
+     
+    background-color: var(--color-03);
+    border-radius: 15px 0 0 15px;
+    color: var(--color-02);
+    margin-top: 36px;
+}
+
+input {
+    border: 1px solid var(--color-03);
+    padding: 17px 17px;
+    margin-top: -16px;
+    color: var(--color-02);
+    width: 215px;
+}
+
+input::placeholder {
+    color: var(--color-02);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.search {
+    background-color: var(--color-01);
+    border-radius: 0 15px 15px 0;
+    color: var(--color-04);
+}
+
+.search-mobile {
+    display: none;
+}
+
+.search-desktop {
+    /*display: none;*/
+}
+
+/* Filters */
+.filters {
+    display: flex;
+    align-items: baseline;
+}
+
+.filters-name {
+    margin-right: 37px;
+    margin-left: 12px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+  
+}
+    
+/* Cards */
+h1 {
+    font-size: 26px;
+    padding-bottom: 23px;
+}
+
+/* Subcards */
+.container1 {
+    background-color: var(--color-03);
+    border-radius: 20px;
+    padding: 42px 0;
+    padding-left: 40px;
+    width: 848px;
+    
+}
+.container-class{
+    display: grid;
+    grid-template-columns: 246px 246px 246px;
+    column-gap: 30px;
+    row-gap: 30px;
+    
+}
+.card {
+    width: 246px;
+    height: 100%; 
+    border-radius: 20px;
+    background-color: var(--color-04);
+}
+
+.img-card {
+    object-fit: cover;
+    width: 96%;
+    height: 124px;
+    border: 5px solid var(--color-04);
+    border-radius: 20px 20px 0 0;
+}
+
+.description-card {
+    padding: 4px 16px;
+}
+/* Footer */
+

@@ -1,0 +1,30 @@
+/* Mobile */
+@media only screen and (max-width:768px) {
+    
+    header {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        
+    }
+    .header {
+        
+        background-color: blueviolet;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .nav-item {
+    list-style-type: none;
+    padding: 46px 32px;
+
+}
+} 
