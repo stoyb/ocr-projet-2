@@ -44,7 +44,7 @@ h3 {
 h4 {
     font-size: 18px;
     font-weight: 700;
-    padding-bottom: 12px;
+    padding-bottom: 16px;
 }
 
 .title3{
@@ -94,8 +94,7 @@ h4 {
     font-size: 18px;
 }
 .button-filters {
-    padding: 0 25px;
-    margin: 0 15px;
+    padding: 0 20px;
     height: 50px;
     background-color: transparent;
    
@@ -126,9 +125,9 @@ h4 {
 /* Logos */
 
 .logo-filters {
-    padding-right: 11px; 
+    padding-right: 10px; 
     color: var(--color-01);
-    font-size: 18px;
+    font-size: 16px;
 
 }
 

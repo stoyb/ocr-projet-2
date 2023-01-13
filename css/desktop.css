@@ -43,8 +43,8 @@ ul {
 .formular{
     display: flex;
     flex-direction: row;
-    align-items: baseline;
-    padding: 36px 5px;
+    align-items: center;
+    margin: 36px 5px;
     
 }
 .local {
@@ -52,13 +52,12 @@ ul {
     background-color: var(--color-03);
     border-radius: 15px 0 0 15px;
     color: var(--color-02);
-    margin-top: 36px;
+    padding: 17px;
 }
 
 input {
     border: 1px solid var(--color-03);
-    padding: 17px 17px;
-    margin-top: -16px;
+    padding: 18.75px 17px;
     color: var(--color-02);
     width: 215px;
 }
@@ -73,6 +72,7 @@ input::placeholder {
     background-color: var(--color-01);
     border-radius: 0 15px 15px 0;
     color: var(--color-04);
+    padding: 17px;
 }
 
 .search-mobile {
@@ -83,18 +83,24 @@ input::placeholder {
 .filters {
     display: flex;
     align-items: baseline;
-}
-
-.filters-name {
-    margin-right: 37px;
-    margin-left: 12px;
+    margin-left: 12px; 
+    column-gap: 37px;
 }
 
 .info {
     display: flex;
     align-items: center;
-    padding: 40px 0;
-  
+    padding: 40px 9px;
+}
+
+.filters-name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.buttons-fil {
+    display: flex;
+    column-gap: 37px;
 }
     
 /* Cards */
@@ -227,6 +233,7 @@ input::placeholder {
 
  .description-card3 {
     background-color: var(--color-04);
+    border-radius: 0 0 20px 20px;
  }
 
 /* Footer */
@@ -244,7 +251,6 @@ input::placeholder {
 footer {
     display: grid;
     grid-template-columns: auto auto auto;
-    column-gap: 254px;
     background-color: var(--color-03);
     margin: 0 50px;
     padding: 45px 70px;
