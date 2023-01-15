@@ -1,4 +1,21 @@
-@media only screen and (max-width:992px) {
+@media (min-width:769px) and (max-width:992px) {
 
+
+            /* HEADER */
+
+header {
+    padding: 0 72px;
+    padding-bottom: 11px;
+   
+}
+
+.booki {
+    padding-top: 44px;
+    background-color: aqua;
     
 }
+  
+
+            /* MAIN */
+}
+

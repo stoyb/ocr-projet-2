@@ -1,24 +1,21 @@
-/* Header */
+                    /* HEADER */
+
+header, main {
+    padding: 0 50px;
+}
 header {
     padding-bottom: 16px;
-    padding: 0 50px;
-    
-}
-.header{
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
+     
 }
-
 .booki {
     height: 19px;
     padding-top: 46px;
     padding-left: 5px;
 }
-/* Nav */
 
-ul {
-    display: flex;
+/* Nav */
+.nav {
     align-items: baseline;
 }
 .nav-item {
@@ -29,227 +26,171 @@ ul {
     color: var(--color-01);
     cursor: default;
 }
-/* Main */
-.container {
-    padding: 0 50px;
-}
+
+
+                    /* MAIN */
 
 .presentation{
     padding: 0 5px;
 }
-
+                    /* Section 1 */
 /* Formular */
-
 .formular{
-    display: flex;
-    flex-direction: row;
     align-items: center;
     margin: 36px 5px;
-    
 }
-.local {
-     
+.localisation {
     background-color: var(--color-03);
     border-radius: 15px 0 0 15px;
     color: var(--color-02);
-    padding: 17px;
+    padding: 16px 18px;
+    font-size: 18px; 
 }
-
 input {
     border: 1px solid var(--color-03);
-    padding: 18.75px 17px;
+    padding: 17.75px 17px;
     color: var(--color-02);
     width: 215px;
 }
-
 input::placeholder {
     color: var(--color-02);
     font-size: 18px;
     font-weight: 700;
 }
-
 .search {
     background-color: var(--color-01);
     border-radius: 0 15px 15px 0;
     color: var(--color-04);
-    padding: 17px;
+    padding: 16px;
 }
-
 .search-mobile {
     display: none;
 } 
 
 /* Filters */
-.filters {
-    display: flex;
-    align-items: baseline;
-    margin-left: 12px; 
+.filters, .buttons-filters {
     column-gap: 37px;
 }
+.filters {
+    align-items: baseline;
+    margin-left: 12px; 
+}
 
-.info {
-    display: flex;
+/* Notice */
+.notice {
     align-items: center;
     padding: 40px 9px;
 }
 
-.filters-name {
-    font-size: 18px;
-    font-weight: 700;
-}
+                    /* Section 2 */
 
-.buttons-fil {
-    display: flex;
-    column-gap: 37px;
-}
-    
-/* Cards */
-
+/* Big cards */
 .flex-cards {
-    display: grid;
     grid-template-columns: auto auto;
     column-gap: 40px;
 }
-
-.container1 {
+.card1, .card2 {
     background-color: var(--color-03);
     border-radius: 20px;
     padding: 40px 40px;
+}
+.card1 {
     width: 800px;
     height: 546px;
-    
 }
-
-.container2 {
-    background-color: var(--color-03);
-    padding: 0 40px;
-    padding-top: 40px;
-    border-radius: 20px;
-    width: 340px;
-    height: 585px;
-}
-/* Subcards */
-
-.container-cards-heb{
-    display: grid;
-    grid-template-columns: 246px 246px 246px;
-    column-gap: 30px;
-    row-gap: 30px;
-    
-}
-
-.container-cards-pop {
-    display: grid;
-    grid-template-columns: 343px;
-    row-gap: 33px;
-}
-.card {
-    width: 246px;
-    height: 199px; 
-    border-radius: 20px;
-    background-color: var(--color-04);
-    box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.1);
-}
-
 .card2 {
-   width: 343px;
-   height: 144px;
-   display: flex;
-   justify-content: flex-start;
-   background-color: var(--color-04);
-   border-radius: 20px;
-   box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.1);
-   
-
-
+    width: 340px;
+    height: 546px;
 }
-
-.description-card2 {
-    padding: 16px 0;
-    padding-left: 15px;
-    padding-right: 22px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-}
-
-.img-card2{
-    border: 5px solid var(--color-04);
-    height: 93%;
-    width: 127px;
-    object-fit: cover;
-    border-radius: 20px 0 0 20px ;
-
-}
-
-.img-card {
-    object-fit: cover;
-    width: 96%;
-    height: 114px;
-    border: 5px solid var(--color-04);
-    border-radius: 20px 20px 0 0;
-}
-
-.description-card {
-    padding: 0 16px;
-}
-
-.chart {
-    color: var(--color-01);
-}
-
-.container2-header {
-    display: flex;
+.card2-header {
     justify-content: space-between;
     align-items: baseline;
 }
 
-.act-marseille {
-    margin: 60px 0;
-
+/* Smart cards groups */
+.small-cards-group1{
+    grid-template-columns: 246px 246px 246px;
+    column-gap: 30px;
+    row-gap: 30px;  
+}
+.small-cards-group2 {
+    grid-template-columns: 343px;
+    row-gap: 33px;
 }
 
-.cards-marseille {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    column-gap: 43px;
-
-
-}
-
- .card3 {
-    height: 444px;
-    width: 302px;
+/* Small cards */
+.small-card1, .small-card2, .small-card3 {
+    border-radius: 20px;
     background-color: var(--color-04);
     box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-} 
- .img-card3 {
-     height: 388px;
-     width: 302px;
-     border-radius: 20px 20px 0 0;  
- }
+}
+.small-card1 {
+    width: 246px;
+    height: 199px; 
+}
+.small-card2 {
+    width: 343px;
+    height: 144px;
+    justify-content: flex-start;
+}
+.description-card1 {
+    padding: 0 16px;
+}
+.description-card2 {
+    padding: 16px 0;
+    padding-left: 15px;
+    padding-right: 22px;
+    justify-content: space-between;  
+}
+.img-card1, .img-card2, .img-card3 {
+    object-fit: cover;
+}
+.img-card1, .img-card2 {
+    border: 5px solid var(--color-04);
+}
+.img-card1, .img-card3 {
+    border-radius: 20px 20px 0 0;
+}
+.img-card1 {
+    width: 96%;
+    height: 114px;
+}
+.img-card2{
+    height: 93%;
+    width: 127px;
+    border-radius: 20px 0 0 20px ;
+}
 
- .description-card3 {
+
+                    /* Section 3 */ 
+
+.section-marseille {
+    margin: 60px 0;
+}
+.small-cards-group3 {
+    grid-template-columns: auto auto auto auto;
+    column-gap: 43px;
+}
+.small-card3 {
+   height: 444px;
+   width: 302px;
+} 
+.description-card3 {
     background-color: var(--color-04);
     border-radius: 0 0 20px 20px;
- }
+}
+.img-card3 {
+    height: 388px;
+    width: 302px;
+}
 
-/* Footer */
 
-.footer-column {
-    display: flex;
-    flex-direction: column;
+                    /* FOOTER */
+
+.footer-list {
     padding-left: 0; /* Enlève les décalages des <li> */
 }
-
-.footer-item {
-    padding: 4px 0;
-}
-
 footer {
-    display: grid;
     grid-template-columns: auto auto auto;
     background-color: var(--color-03);
     margin: 0 50px;
