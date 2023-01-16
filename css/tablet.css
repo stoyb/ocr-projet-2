@@ -4,18 +4,135 @@
             /* HEADER */
 
 header {
-    padding: 0 72px;
+    padding: 0 52px;
     padding-bottom: 11px;
-   
 }
-
 .booki {
     padding-top: 44px;
-    background-color: aqua;
     
+}
+
+/* Nav */
+.nav-item {
+    padding: 44px 32px;
 }
   
 
-            /* MAIN */
+                    /* MAIN */
+
+main {
+    margin: 0 50px;
+    padding: 0;
 }
+
+
+                    /* Section 1 */
+.presentation {
+    margin: 0 2px;
+}
+
+h1 {
+    margin-bottom: 13px;
+}
+/* Formular */
+.formular {
+   margin: 20px 4px;
+}
+/* Filters */
+.filters{
+    padding: 0 2px;
+}
+.filters, .buttons-filters {
+    column-gap: 18px;
+}
+.button1 {
+    padding: 0 14px;
+    margin: 0 6px;
+}
+
+.icon-filters {
+    font-size: 16px;
+}
+
+.bold2 {
+    font-size: 15px;
+}
+
+/* Notice */
+.notice {
+    align-items: center;
+    padding: 40px 2px;
+}
+
+                    /* Section 2 */
+/* Big cards */
+
+.flex-cards {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    row-gap: 53px;
+}
+
+.card1, .card2 {
+    margin : 0 2px;
+}
+
+.card2 {
+    width: 800px;
+    height: 198px;
+}
+/* Smart cards groups */
+.small-cards-group2 {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    column-gap: 24px ;
+}
+
+/* Small cards */
+.small-card2 {
+    width: 252px;
+    height: 144px;
+}
+.description-card2 {
+    padding: 12px 0;
+    padding-left: 10px;
+    padding-right: 4px;
+}
+.img-card2{
+    height: 93%;
+    width: 96px;
+}
+
+                    /* Section 3 */
+
+.section-marseille {
+    margin: 70px 0;
+}
+
+.small-cards-group3 {
+    column-gap: 50px;
+    margin-top: 9px;
+
+}
+
+.small-card3 {
+    height: 267px;
+    width: 182px;
+ } 
+
+ .img-card3 {
+    height: 211px;
+    width: 100%;
+}
+
+                        /* FOOTER */
+
+footer {
+    width: 739px;
+}
+}
+
+
+
+
 
