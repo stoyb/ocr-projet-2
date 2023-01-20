@@ -74,12 +74,16 @@ input::placeholder {
     column-gap: 37px;
 }
 .filters {
-    align-items: baseline;
+    display: flex;
+    flex-direction: row;
     margin-left: 12px; 
+    align-items: baseline;
 }
 
 .buttons-filters {
     padding-top: 12px;
+    grid-template-columns: auto auto auto auto;
+    
 }
 
 /* Notice */
@@ -91,14 +95,15 @@ input::placeholder {
                     /* Section 2 */
 
 /* Big cards */
-.flex-cards {
+.section2 {
+    display: grid;
     grid-template-columns: auto auto;
     column-gap: 40px;
 }
 .card1, .card2 {
     background-color: var(--color-03);
     border-radius: 20px;
-    padding: 40px 40px;
+    padding: 40px;
 }
 .card1 {
     width: 800px;
@@ -170,7 +175,7 @@ input::placeholder {
 
                     /* Section 3 */ 
 
-.section-marseille {
+.section3 {
     margin: 60px 0;
 }
 .small-cards-group3 {
