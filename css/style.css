@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: Raleway;
+    max-width: 1400px;
 }
 
 a {
@@ -9,6 +10,7 @@ a {
 
 li {
     list-style-type: none;
+    color: var(--color-02);
 }
 
 /* Colors */
@@ -103,7 +105,7 @@ h4, .bold1 {
 }
 
 .subtitles3, .footer-item {
-    padding: 4px 0;
+    padding: 5px 0;
 }
 
 /* Buttons */

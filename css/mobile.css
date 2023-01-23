@@ -1,4 +1,4 @@
-@media only screen and (max-width:768px) {
+@media (max-width:768px) {
                 /* HEADER */
 
 header {
@@ -7,15 +7,16 @@ header {
     margin: 0;
     width: 90%;
 }
-
-.booki {
-    padding: 24px 50%;
-}
     
 /* Nav */
 .nav {
     width: 100%;
     padding-left: 0;
+}
+
+.booki {
+    width: 60px;
+    padding: 24px 51%;
 }
 
 .border1 {
@@ -29,7 +30,7 @@ header {
     border-top: none;
 }
 .item1 {
-    padding: 46px 20%;
+    padding: 46px 16%;
 }
 
 .item2 {
@@ -51,13 +52,14 @@ main{
 
 .section1{
     width: 70%;
-    padding: 0 16%;
     padding-top: 30px;
+    margin: 0 auto;
 }
 
 h1 {
     margin-bottom: 12px;
 }
+
 
 .formular {
     margin: 36px 5px;
@@ -91,14 +93,14 @@ input {
 }
 
 .button1 {
-    padding: 16px 10px;
+    padding: 16px 8px;
     display: flex;
     align-items: center;
 }
 
 .icon-filters {
     padding-right: 5px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .bold2 {
@@ -124,6 +126,7 @@ input {
 .section2{
     display: flex;
     flex-direction: column-reverse;
+    row-gap: 0;
 }
 
 
@@ -139,42 +142,47 @@ input {
 }
 
 .card1 {
-    background-color: transparent;
     padding: 28px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
 }
 
 .card2 {
     padding-bottom: 47px;
 }
 
+h2 {
+    font-size: 22px;
+}
 .h2-1 {
-    padding: 0 16%;
+    margin-left: -40px;
 }
 .card2-header {
-    justify-content: flex-start;
-    column-gap: 20%;
-    padding: 0 16%;
+    justify-content: center;
+    column-gap: 100px;
     padding-top: 28px;
+    margin-left: 0;
 } 
 
 /* Smart cards groups */
 
-.small-cards-group1{
+.small-cards-group1, .small-cards-group2, .small-cards-group3 {
     grid-template-columns: auto;
     row-gap:12px;
-    padding: 0 16%;
-}
-.small-cards-group2 {
-    row-gap: 11px;
-    padding: 0 16%;
-}
-/* Small cards */
-.small-card1{
-    width: 335px;
+    justify-items: center;
+    margin: 0 auto;
 }
 
-.small-card2, .small-card3 {
-    width: 334px;
+.small-cards-group1, .small-cards-group2 {
+    row-gap:12px;
+}
+ 
+/* Small cards */
+
+.small-card1, .small-card2, .small-card3 {
+    width: 335px;
 }
 
 .description-card2{
@@ -189,18 +197,20 @@ input {
                     /* Section 3 */ 
 .section3{
     margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .title-section-marseille{
     padding-top: 20px;
     padding-bottom: 0;
-    padding: 0 16%;
-    max-width: 32%;
+    margin-left: -160px;
+    max-width: 165px;
 }
 .small-cards-group3 {
-    grid-template-columns: auto;
     row-gap: 24px;
-    padding: 0 16%;
 }
 .small-card3{
     height: 190px;  
@@ -219,20 +229,8 @@ footer {
     row-gap: 46px;
     margin: 0;
     padding: 45px 30px;
-    width: 88%;
+    width: 91%;
 }
-}
-
-@media only screen and (max-width:600px) {
-   .booki{
-    padding: 24px 51%;
-   }
-    .item1{
-    padding: 46px 16%;
-    }
-    .item2{
-        padding: 46px 20%;
-        }
 }
 
 
