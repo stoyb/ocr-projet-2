@@ -1,10 +1,12 @@
                     /* HEADER */
 
-header, main {
+#header, main {
     padding: 0 50px;
 }
-header {
+#header {
     padding-bottom: 16px;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
      
 }
@@ -21,6 +23,7 @@ header {
 .nav-item {
     padding: 46px 32px;
 }
+
 .nav-item:hover{
     color: var(--color-01);
     cursor: default;
@@ -31,7 +34,7 @@ header {
 
 
                     /* Section 1 */
-.presentation{
+#presentation{
     padding: 0 5px;
     }
 /* Formular */
@@ -39,7 +42,7 @@ header {
     align-items: center;
     margin: 20px 5px;
 }
-.localisation {
+#localisation {
     background-color: var(--color-03);
     border-radius: 15px 0 0 15px;
     color: var(--color-02);
@@ -95,21 +98,21 @@ input::placeholder {
                     /* Section 2 */
 
 /* Big cards */
-.section2 {
+#section2 {
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 40px;
 }
-.card1, .card2 {
+#card1, #card2 {
     background-color: var(--color-03);
     border-radius: 20px;
     padding: 40px;
 }
-.card1 {
+#card1 {
     width: 800px;
     height: 546px;
 }
-.card2 {
+#card2 {
     width: 340px;
     height: 546px;
 }
@@ -175,7 +178,7 @@ input::placeholder {
 
                     /* Section 3 */ 
 
-.section3 {
+#section3 {
     margin: 60px 0;
 }
 .small-cards-group3 {
