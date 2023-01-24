@@ -83,6 +83,7 @@ h4, .bold1 {
 .bold2 {
     font-size: 16px;
     font-weight: 700;
+    color: var(--color-02);
 }
 
 .bold3 {
