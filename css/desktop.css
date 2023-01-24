@@ -1,5 +1,4 @@
                     /* HEADER */
-
 #header, main {
     padding: 0 50px;
 }
@@ -28,11 +27,8 @@
     color: var(--color-01);
     cursor: default;
 }
-
-
                     /* MAIN */
-
-
+                    
                     /* Section 1 */
 #presentation{
     padding: 0 5px;
@@ -174,7 +170,6 @@ input::placeholder {
     width: 127px;
     border-radius: 20px 0 0 20px ;
 }
-
 
                     /* Section 3 */ 
 
