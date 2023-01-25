@@ -63,6 +63,7 @@ input::placeholder {
     padding: 16px;
     font-size: 18px;
     font-weight: 700;
+    border: none;
 }
 .search-mobile {
     display: none;
