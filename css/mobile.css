@@ -16,7 +16,7 @@
 
 .booki {
     width: 60px;
-    padding: 24px 48%;
+    padding: 24px 45%;
 }
 
 .border1 {
@@ -31,12 +31,11 @@
 }
 .item1 {
     padding: 46px 16%;
-   
+    min-width: 70px;
 }
 
 .item2 {
     padding: 46px 15%;
-  
 }
 
                     /* MAIN */
