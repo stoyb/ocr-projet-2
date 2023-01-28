@@ -18,15 +18,17 @@
 /* Nav */
 .nav {
     align-items: baseline;
+    padding: 46px 0;
 }
 .nav-item {
     padding: 46px 32px;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     color: var(--color-01);
-    cursor: default;
 }
+
+
                     /* MAIN */
                     
                     /* Section 1 */
@@ -206,4 +208,8 @@ footer {
     margin: 0 50px;
     padding: 45px 70px;
     width: 1199px;
+}
+
+.footer-item{
+    padding: 6px 0;
 }

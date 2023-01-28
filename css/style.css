@@ -138,6 +138,8 @@ h4, .bold1 {
 
 .border1:hover{
     border-top: solid 2px var(--color-01);
+    padding-top: 40px;
+    cursor: default;
 }
 
 .border2 {
@@ -159,6 +161,10 @@ h4, .bold1 {
 .icon-filters {
     padding-right: 8px; 
     font-size: 18px;
+}
+
+.icon-euro {
+    font-weight: bold;
 }
 
 .icon-star1, .icon-star2 {
